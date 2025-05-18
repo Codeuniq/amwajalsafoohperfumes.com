@@ -1,89 +1,764 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
+	<title>Pacific - Free Bootstrap 4 Template by Colorlib</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
 
-		<title>Sorry! We will be back soon.</title>
-		<style>
-			body {
-				font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
-				color: #36414C;
-				font-weight: 300;
-			}
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
-			.page-container {
-				max-width: 800px;
-				padding: 15px;
-				vertical-align: middle;
-				position: absolute;
-				top: 50%;
-				left: 0;
-				right: 0;
-				margin: 0 auto;
-				transform: translate(0%, -50%);
-			}
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-			.svg-container {
-				float: left;
-				width: 150px;
-				padding-top: 24px;
-			}
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
 
-			.message-container {
-				float: left;
-				padding-left: 15px;
-				font-size: 16px;
-				line-height: 1.6;
-			}
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" loading="lazy">
+		<div class="container" loading="lazy">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logoam.webp" class="logo" alt="" title=""  />
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+			</button>
 
-			.message-container h1 {
-				font-size: 48px;
-				line-height: 1.2;
-				font-weight: 200;
-			}
-
-			.message-container .message {
-				color: #8D99A6;
-			}
-
-			.clearfix {
-				clear: both;
-			}
-
-			a {
-				color: #5E64FF;
-			}
-
-			@media (max-width: 767px) {
-				.svg-container {
-					float: none;
-					padding-top: 0px;
-				}
-
-				.message-container {
-					float: none;
-					width: 100% !important;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="page-container">
-			<div class="svg-container">
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 32 32" version="1.1" x="0px" y="0px"><title>sad-face-avatar-boy-man-11</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"><path d="M24.5728851,23.0941141 C26.0847779,16.969087 23.5542402,12.1548858 21.4280864,11.0822754 C19.598459,12.7549171 13.9938462,17 10.2890466,17 C12.2343263,15.4384766 12.8488535,12.9394531 12.8488535,12.9394531 C12.8488535,12.9394531 10.9859461,15.7346191 7.24611965,17 C6.45154466,18.5731485 6.67682658,20.3507184 6.78659707,21.5361582 C6.84777749,21.7403698 6.95210509,22.0855229 6.99214296,22.1994274 C7.09055416,22.4793995 7.21210961,22.7924224 7.35775135,23.1301118 C7.774276,24.0958785 8.2986796,25.0616511 8.9372701,25.9603932 C10.738893,28.4959687 13.0675623,30 16,30 C18.9311427,30 21.2399187,28.4973998 23.0104666,25.9636063 C23.6381381,25.065359 24.1509411,24.1000358 24.5559252,23.1346951 C24.5616169,23.1211281 24.5672702,23.1076009 24.5728851,23.0941141 L24.5728851,23.0941141 Z M5.94669386,22.2116429 C4.61458602,20.1217921 3.13011281,13.1987617 4.62664708,8.75830078 C6.40621687,3.47802734 12.6103081,1 15.7729333,1 C18.8013894,1.00000002 21.8450169,1.93994141 23.0552307,3.80615234 C23.0552307,3.80615234 25.0915798,2.75024414 26.9020692,3.80615234 C25.0915798,4.17895508 24.887945,5.19335938 24.887945,5.19335938 C27.9234944,6.90377632 29.4577737,17.0840684 26.1082885,21.6811732 C26.0708438,21.8119773 25.9120331,22.3649335 25.857287,22.526075 C25.7549564,22.8272785 25.6289716,23.1618434 25.4780638,23.5215549 C25.0472763,24.5484017 24.5017812,25.575266 23.8301706,26.5363937 C21.888484,29.3151002 19.2996007,31 16,31 C12.7016943,31 10.0952049,29.3165313 8.12209422,26.5396068 C7.43952798,25.5789739 6.88219633,24.552559 6.43951227,23.5261382 C6.28443097,23.166562 6.15455941,22.832124 6.04872776,22.5310413 C6.02660008,22.4680898 5.98792403,22.3454665 5.94669386,22.2116429 L5.94669386,22.2116429 Z M20.6103625,20.496219 L21.7234973,21.0527864 C21.9704865,21.176281 22.0705987,21.4766175 21.9471041,21.7236068 C21.8236094,21.970596 21.5232729,22.0707082 21.2762837,21.9472136 L19.2762837,20.9472136 C18.9077594,20.7629515 18.9077594,20.2370485 19.2762837,20.0527864 L21.2762837,19.0527864 C21.5232729,18.9292918 21.8236094,19.029404 21.9471041,19.2763932 C22.0705987,19.5233825 21.9704865,19.823719 21.7234973,19.9472136 L20.6103625,20.496219 Z M11.389528,20.496219 L10.2763932,21.0527864 C10.029404,21.176281 9.92929178,21.4766175 10.0527864,21.7236068 C10.176281,21.970596 10.4766175,22.0707082 10.7236068,21.9472136 L12.7236068,20.9472136 C13.0921311,20.7629515 13.0921311,20.2370485 12.7236068,20.0527864 L10.7236068,19.0527864 C10.4766175,18.9292918 10.176281,19.029404 10.0527864,19.2763932 C9.92929178,19.5233825 10.029404,19.823719 10.2763932,19.9472136 L11.389528,20.496219 Z M14.4246316,26.7639848 C14.4725953,26.6868331 14.5938453,26.5444206 14.7863941,26.3975309 C15.1127054,26.1485979 15.512309,26 16,26 C16.487691,26 16.8872946,26.1485979 17.2136059,26.3975309 C17.4061547,26.5444206 17.5274047,26.6868331 17.5753684,26.7639848 C17.7211632,26.9985024 18.0294673,27.0704264 18.2639848,26.9246316 C18.4985024,26.7788368 18.5704264,26.4705327 18.4246316,26.2360152 C18.3171754,26.0631669 18.1191505,25.8305794 17.8201344,25.6024691 C17.3271707,25.2264021 16.7183393,25 16,25 C15.2816607,25 14.6728293,25.2264021 14.1798656,25.6024691 C13.8808495,25.8305794 13.6828246,26.0631669 13.5753684,26.2360152 C13.4295736,26.4705327 13.5014976,26.7788368 13.7360152,26.9246316 C13.9705327,27.0704264 14.2788368,26.9985024 14.4246316,26.7639848 Z" fill="#000000" sketch:type="MSShapeGroup"></path></g></svg>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
+					<!-- <li class="nav-item"><a href="hotel.html" class="nav-link">Hotel</a></li> -->
+					<!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+				</ul>
 			</div>
-			<div class="message-container" style="width: calc(100% - 170px);">
-				<h1>
-					Faisan! <br>
-					We will be back soon.
-				</h1>
-				<p class="message">
-					<strong>Don't panic.</strong> It's not you, it's us.<br>
-					Most likely, our engineers are updating the code,
-					and it should take a minute for the new code to load into memory.<br><br>
-					Try refreshing after a minute or two.
-				</p>
-			</div>
-			<div class="clearfix"></div>
 		</div>
+	</nav>
+	<!-- END nav -->
+	
+	<div class="hero-wrap js-fullheight" style="background-image: url('images/mainbgg.jpg');" loading="lazy">
+		<!-- <div class="overlay"></div> -->
+
+		<!-- <div id="main"> -->
+			<div class="one justify-content-center d-flex" loading="lazy">
+				<h3 class="mar1 scent desk" style="text-shadow: 0px 0px 11px #FFF65C, 0px 0px 15px #816304;">Scented</h3>
+				<h1 class="mar2 eleg desk" style="text-shadow: 0px 0px 11px #FFF65C, 0px 0px 15px #816304;">Elegance</h1>
+				<h3 class="mobile" style="text-shadow: 0px 0px 11px #FFF65C, 0px 0px 15px #816304;">Scented Elegance</h3>
+				<img id="orange-cut"  src="images/fresh1.png" alt="" loading="lazy">
+				<img id="fanta" src="images/lady.webp" alt="" loading="lazy">
+				<img id="orange" src="images/pacho.webp" alt="" loading="lazy">
+				<img id="leaf" class="floating" src="images/leaf.webp" alt="" loading="lazy">
+				<img id="leaf2" class="floating" src="images/leaf2.webp" alt="" loading="lazy">
+				<img id="leaf3" src="images/lav.webp" alt="" loading="lazy">
+			</div>
+			<div class="two" loading="lazy" id="about">
+				<div class="lft-two" loading="lazy">
+					<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" loading="lazy">
+						<path fill="#ebebeb" d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z" transform="translate(100 100)" />
+					  </svg>
+				</div>
+				<div class="rght-two" loading="lazy">
+					<h1 loading="lazy">About Us</h1>
+					<p loading="lazy">Amwaj Al Salah Perfumes is dedicated to crafting exceptional fragrances that resonate with sophistication and individuality. Rooted in tradition and driven by innovation, our perfumes are a celebration of artistry, quality, and passion. Each creation tells a story, blending the finest ingredients from around the globe to deliver a sensory experience like no other. With a deep appreciation for culture and luxury, we aim to create timeless scents that leave an everlasting impression.</p>
+				</div>
+			</div>
+			<div class="three" loading="lazy"> 
+				<div class="container" loading="lazy">
+					<!-- <div class="text-center">
+						<h1>Products</h1>
+					</div> -->
+					
+					<div class="row" loading="lazy">
+						<div class="col-4 " loading="lazy">
+							<div class="cards d-none" loading="lazy"style="background-color: #FFFFFF;">
+								
+							</div>
+						</div>
+						<div class="col-4" loading="lazy">
+							<div class="card" loading="lazy">
+								<!-- <h1 class="mainimg">Fanta</h1> -->
+								<!-- <button>Buy Now</button> -->
+							</div>
+						</div>
+						<div class="col-4" loading="lazy">
+							<div class="cards text-center d-none" loading="lazy" style="background-color: #FFFFFF;">
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+	</div>
+		<section class="sec-d" id="product">
+			<h1 class="prod">Our Products</h1>
+			<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p1.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >SHAI OUD </h3>
+										<!-- <div class="prodis">
+											<span>EMB PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p6.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >PINK LANDY</h3>
+										<!-- <div class="prodis">
+											<span>EMB PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p2.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >7 INTENSE</h3>
+										<!-- <div class="prodis">
+											<span>EMB PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p8.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >SUFI MUSK</h3>
+										<!-- <div class="prodis">
+											<span>EMB PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p3.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >VANILLA SUGAR</h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p5.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class="d-flex margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >BLACK X</h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p4.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class=" margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >GREEN PISTACHIO</h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p9.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class=" margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >SAVAGE   </h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p7.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class=" margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >ALWAYS WITH YOU INTENSELY</h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex" >
+								<div class="product d-flex flex-column">
+									<a  class="img productimage" loading="lazy" style="background-image: url(images/p10.webp);">
+									</a>
+									<div class="text  py-3 pb-4 px-3">
+										<div class=" margb">
+											<div class="cat">
+												<span>AMWAJ AL SAFOOH PERFUMES</span>
+											</div>
+										</div>
+										<h3 >ZARA CRYSTAL</h3>
+										<!-- <div class="prodis">
+											<span>PLAIN PALMERA</span>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+
+		<section class="ftco-section ftco-portfolio bg-light " loading="lazy">
+			
+			<div class="container" loading="lazy">
+				<div class="row no-gutters" loading="lazy">
+					<div class="col-md-12 portfolio-wrap mt-0" loading="lazy">
+						<div class="row no-gutters align-items-center" loading="lazy">
+							<div class="col-md-5 img" >
+								<video preload="none" src="video/video1.mp4" class="card-img-top"  muted autoplay loop loading="lazy"></video>
+							</div>
+							<div class="col-md-7" loading="lazy">
+								<div class="text pt-5 pl-0 pl-lg-5 pl-md-4 ftco-animate" loading="lazy">
+									<div class="px-4 px-lg-4">
+										<div class="desc">
+											<div class="top">
+												<span class="subheading">AMWAJ AL SAFOOH PERFUMES</span>
+												<h2 class="mb-2"><a href="work.html">Unparalleled Fragrances for Every Occasione</a></h2>
+											</div>
+											<div class="absolute">
+												<p>Discover the essence of sophistication with Amwaj Al Salah Perfumes. Each scent is masterfully crafted to capture timeless elegance, ensuring you leave a lasting impression wherever you go.</p>
+												<div class="icon d-flex align-items-center mb-4">
+													<div class="img" style="background-image: url(images/slogo.webp);"></div>
+													<!-- <div class="position pl-3">
+														<h4 class="mb-0">Jamie Jonson</h4>
+														<span>avo.com</span>
+													</div> -->
+												</div>
+												<!-- <p><a href="#" class="custom-btn">View Portfolio</a></p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-12 portfolio-wrap">
+						<div class="row no-gutters align-items-center">
+							<div class="col-md-5 order-md-last img" >
+								<video preload="none" src="video/video2.mp4" class="card-img-top" muted autoplay loop loading="lazy"></video>
+							</div>
+							<div class="col-md-7">
+								<div class="text pt-5 pr-md-5 ftco-animate">
+									<div class="px-4 px-lg-4">
+										<div class="desc text-md-right">
+											<div class="top">
+												<span class="subheading">AMWAJ AL SAFOOH PERFUMES</span>
+												<h2 class="mb-2"><a href="work.html">Luxury in Every Drop</a></h2>
+											</div>
+											<div class="absolute">
+												<p>From enchanting floral notes to exotic oud blends, our collection showcases a range of exquisite fragrances that cater to diverse preferences. Experience the perfect blend of tradition and modernity.</p>
+												<div class="d-flex w-100">
+													<div class="icon d-flex align-items-center ml-md-auto mb-4">
+														<div class="img" style="background-image: url(images/slogo.webp);"></div>
+														<!-- <div class="position pl-3 text-left">
+															<h4 class="mb-0">Jamie Jonson</h4>
+															<span>avo.com</span>
+														</div> -->
+													</div>
+												</div>
+												<!-- <p><a href="#" class="custom-btn">View Portfolio</a></p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-12 portfolio-wrap">
+						<div class="row no-gutters align-items-center">
+							<div class="col-md-5 img" >
+								<video preload="none" src="video/video3.mp4" class="card-img-top" muted autoplay loop loading="lazy"></video>
+							</div>
+							<div class="col-md-7">
+								<div class="text pt-5 pl-md-5 pl-md-4 ftco-animate">
+									<div class="px-4 px-lg-4">
+										<div class="desc">
+											<div class="top">
+												<span class="subheading">AMWAJ AL SAFOOH PERFUMES</span>
+												<h2 class="mb-2"><a href="work.html">A Fragrance for Every Personality</a></h2>
+											</div>
+											<div class="absolute">
+												<p>Whether you seek bold and charismatic scents or subtle and graceful aromas, Amwaj Al Salah Perfumes offers a selection that resonates with your unique identity.</p>
+												<div class="icon d-flex align-items-center mb-4">
+													<div class="img" style="background-image: url(images/slogo.webp);"></div>
+													<!-- <div class="position pl-3">
+														<h4 class="mb-0">Jamie Jonson</h4>
+														<span>avo.com</span>
+													</div> -->
+												</div>
+												<!-- <p><a href="#" class="custom-btn">View Portfolio</a></p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-12 portfolio-wrap">
+						<div class="row no-gutters align-items-center">
+							<div class="col-md-5 order-md-last img" >
+								<video preload="none" src="video/video4.mp4" class="card-img-top" muted autoplay loop loading="lazy"></video>
+								<!-- <video preload="none" src="video/video4.mp4" class="card-img-top" muted autoplay loop loading="lazy"></video> -->
+							</div>
+							<div class="col-md-7">
+								<div class="text pt-5 pr-md-5 ftco-animate">
+									<div class="px-4 px-lg-4">
+										<div class="desc text-md-right">
+											<div class="top">
+												<span class="subheading">AMWAJ AL SAFOOH PERFUMES</span>
+												<h2 class="mb-2"><a href="work.html">Craftsmanship Beyond Compare</a></h2>
+											</div>
+											<div class="absolute">
+												<p>Amwaj Al Salah Perfumes reflect the art of fine perfumery, created with the highest quality ingredients sourced from around the world. Immerse yourself in a sensory journey of pure indulgence.</p>
+												<div class="d-flex w-100">
+													<div class="icon d-flex align-items-center ml-md-auto mb-4">
+														<div class="img" style="background-image: url(images/slogo.webp);"></div>
+														<!-- <div class="position pl-3 text-left">
+															<h4 class="mb-0">Jamie Jonson</h4>
+															<span>avo.com</span>
+														</div> -->
+													</div>
+												</div>
+												<!-- <p><a href="#" class="custom-btn">View Portfolio</a></p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+					<div class="col-md-12 portfolio-wrap">
+						<div class="row no-gutters align-items-center">
+							<div class="col-md-6 d-flex justify-content-center" >
+								<div class="cards cosm" loading="lazy"style="color: #FFFFFF;">
+								<h5 class="prod" style="font-size: 46px; margin-top: 27px;">Other Products</h5>
+								<span class="other">DOVE</span>
+								<span class="other">NIVEA</span>
+								<span class="other">CERAVE</span>
+								<span class="other">COSRX</span>
+								<span class="other">ANUA</span>
+								<span class="other">CETAPHIL</span>
+								<span class="other">FAIR & LOVELY</span>
+								<span class="other">CANTU</span>
+								<span class="other">GARNIER</span>
+								<!-- <h1>CocaCola</h1> -->
+								<!-- <button>Buy Now</button> -->
+							</div>
+							</div>
+							<div class="col-md-6 d-flex justify-content-center">
+								<div class="cards cosm" loading="lazy"style="color: #FFFFFF;">
+								<h5 class="prod" style="font-size: 46px; margin-top: 27px;">Other Products</h5>
+								
+								<span class="other">FAIZA</span>
+								<span class="other">GOREE</span>
+								<span class="other">VASLINE </span>
+								<span class="other">VATIKA</span>
+								<span class="other">AXE</span>
+								<span class="other">ORAL B</span>
+								<span class="other">BEAUTY OF JOSEON</span>
+								<span class="other">PONDS </span>
+								<span class="other">SENSODYNE</span>
+								<!-- <h1>CocaCola</h1> -->
+								<!-- <button>Buy Now</button> -->
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="degree-left"></div>
+		</section>
+
+		
+		<section class="ftco-hireme flower" >
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-md-8 col-lg-8 d-flex align-items-center">
+						<div class="w-100 py-4" style="color: black;">
+							<h2 style="color: black;">Your Fragrance Journey Starts Here</h2>
+							<p>Embark on a sensory adventure with Amwaj Al Salah Perfumes.Connect with us to discover</p>
+							<p class="mb-0"><a href="tel:+971551040456" target="_blank" class="btn btn-white py-3 px-4" style="color: black !important;">Contact me</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-4 d-flex align-items-end">
+						<img src="images/sofi.webp" loading="lazy" class="img-fluid reach" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-intro ftco-section ftco-no-pt">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center">
+						<div class="img"  style="background-image: url(images/PINKBG.jpg);">
+							<div class="overlay"></div>
+							<span class="subheading mb-5" style="font-family:Emirates bold;">AMWAJ CUSTOM PERFUME LABELS</span>
+							<p class="mainheading">Do You Want Custom Perfume Lables ?</p>
+							<p class="mb-0"><a href="tel:+971551040456" target="_blank" class="btn btn-primary px-4 py-3">Ask For A Quote</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-about img d-none"style="background-image: url(images/bg_4.webp);">
+			<div class="overlay"></div>
+			<div class="container py-md-5">
+				<div class="row py-md-5">
+					<div class="col-md d-flex align-items-center justify-content-center">
+						<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+							<span class="fa fa-play"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-about ftco-no-pt img d-none">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-12 about-intro">
+						<div class="row">
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(images/about-1.webp);">
+								</div>
+							</div>
+							<div class="col-md-6 pl-md-5 py-5">
+								<div class="row justify-content-start pb-3">
+									<div class="col-md-12 heading-section ftco-animate">
+										<span class="subheading">About Us</span>
+										<h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
+										<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<p><a href="#" class="btn btn-primary">Book Your Destination</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section testimony-section bg-light" style="background-image: url();">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+						<h1 class="prod">Our Client Says</h1>
+					</div>
+				</div>
+				
+				<div class="row ftco-animate">
+					<div class="col-md-12">
+						<div class="carousel-testimony owl-carousel">
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(images/person_1.webp)"></div>
+											<div class="pl-3">
+												<p class="name">Roger Scott</p>
+												<span class="position">Marketing Manager</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(images/person_2.webp)"></div>
+											<div class="pl-3">
+												<p class="name">Roger Scott</p>
+												<span class="position">Marketing Manager</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(images/person_3.webp)"></div>
+											<div class="pl-3">
+												<p class="name">Roger Scott</p>
+												<span class="position">Marketing Manager</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
+		  <!-- footer section -->
+  <footer id="footer" >
+		<div class="container"  id="contacts">
+			<div class="row">
+			<div class="mouse">
+					  <a href="#home-section" class="mouse-icon">
+						  <div class="mouse-wheel">
+							<svg class="d-none" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
+							  </svg>
+						  </div>
+					  </a>
+				  </div>
+		</div>
+		</div>
+		<div class="footer-top">
+		  <div class="container">
+			<div class="row">
+	
+			  <div class="col-lg-3 col-md-6 footer-info">
+				<!-- <h3>Yarmook</h3> -->
+				<a href="#home-section"><img src="images/whitelogo.webp" alt="nice" title="nice" style="height:100px;width: auto;" /></a>
+				<!-- <img src="assets/img/logo.webp" alt="AMWAJ AL SAFOOH PERFUMES" title="AMWAJ AL SAFOOH PERFUMES" style="height:100px;width: auto;" /> -->
+				<!-- <p class="mt-4">With experience in Sports Wear trading for more than a decade, Abitos are comfortable clothing that becomes your second skin.</p> -->
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-links">
+				<h4>Useful Links</h4>
+				<ul>
+				  <li><i class="bi bi-chevron-right"></i> <a href="#home">Home</a></li>
+				  <li><i class="bi bi-chevron-right"></i> <a href="#about">About</a></li>
+				  <li><i class="bi bi-chevron-right"></i> <a href="#product">Products</a></li>
+				  <li><i class="bi bi-chevron-right"></i> <a href="#contacts">Contact Us</a></li>
+				  <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+				</ul>
+			  </div>
+	
+			  <div class="col-lg-3 col-md-6 footer-contact">
+				<h4>Contact Us</h4>
+				<p>
+				  <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. -->
+				  <br>
+				  <strong>Phone:</strong><a href="tel:+971551040456" style="color: #FFFFFF;">&nbsp;+971-551040456</a><br>
+				  <strong>Email:</strong><a href="mailto:amwajalsafooh@gmail.com" style="color: #FFFFFF;">&nbsp;amwajalsafooh@gmail.com</a><br>
+				  <strong>Address:</strong><a  style="color: #FFFFFF;">&nbsp;Murshid bazar Fikree Building Shop Number 26</a><br>
+				</p>
+		  
+				<div class="social-links">
+					<a class="instagram" href="https://www.instagram.com/amwaj_al_safooh?igsh=bmI0anVzdDlsbWJl " target="_blank">
+					  <!-- <i class="bi bi-instagram" style="width:16px;height:16px;"></i> -->
+					  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+						<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+					  </svg>
+					</a>
+          <a  class="tiktok" href="">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+              <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+            </svg>
+					  <!-- <i class="bi bi-facebook" style="width:16px;height:16px;"></i> -->
+					</a>
+					<a  class="twitter">
+					  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+						<path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+						</svg>
+					  </a>
+					  <a  class="tread">
+						  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-threads" viewBox="0 0 16 16">
+							  <path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948.591.621.928 1.509 1.005 2.644.328.138.63.299.905.484 1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.217 6.217 0 0 0-1.528-.161"/>
+							</svg>
+						</a>
+					<!-- <a href="" class="instagram"><i class="bi bi-instagram"></i></a> -->
+					<a  class="linkedin">
+					  <!-- <i class="bi bi-linkedin" style="width:16px;height:16px;"></i> -->
+					  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+						<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+					  </svg>
+					</a>
+				  </div>
+		  
+				</div>
+		
+				<div class="col-lg-3 col-md-6 footer-links">
+				<h4>Location</h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14432.233721402892!2d55.283126455419925!3d25.268619799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43fcf643ae39%3A0x2225449fddf12a4!2sAMWAJ%20AL%20SAFOOH%20TRADE%20L.L.C!5e0!3m2!1sen!2sae!4v1747075027359!5m2!1sen!2sae"
+				 style="border:0; width: 100%; height: 200px;border-radius: 30px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="2"></iframe>
+				</div>
+		  
+			  </div>
+			  </div>
+			</div>
+		  
+			<div class="container">
+			  <div class="copyright">
+			  &copy; Copyright <strong>Amwaj Al Safooh Perfumes</strong>. All Rights Reserved
+			  </div>
+			  <div class="credits">
+          
+				Developed by <a  class="instagram" href="https://faisan333.github.io/Faisan.github.io/" target="_blank">
+					<!-- <i class="bi bi-instagram" style="width:16px;height:16px;color:#C13584;"></i> -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#960cbd" class="bi bi-code-square" viewBox="0 0 16 16">
+					  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+					  <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+					</svg>
+              </a>
+          	</div>
+			</div>
+			</footer>
+  <!-- footer section -->
+
+  <a href="https://wa.me/+971551040456" target="_blank" class="back-to-top bounce" type="button" class="btn" data-toggle="tooltip" data-placement="left" title="Whatsapp Us">
+    <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="60px" height="60px" viewBox="0 0 1024 1024">
+    <defs>
+    <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"></path>
+    </defs>
+    <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+      <stop offset="0" stop-color="#61fd7d"></stop>
+      <stop offset="1" stop-color="#2bb826"></stop>
+    </linearGradient>
+    <use xlink:href="#htwasqicona-chat" overflow="visible" style="fill: url(#htwasqiconb-chat)" fill="url(#htwasqiconb-chat)"></use>
+    <g>
+      <path style="fill: #FFFFFF;" fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"></path>
+    </g>
+    </svg>
+    </a>
 
 
-</body></html>
+			<!-- loader -->
+			<!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+			<!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery-migrate-3.0.1.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.easing.1.3.js"></script>
+			<script src="js/jquery.waypoints.min.js"></script>
+			<script src="js/jquery.stellar.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/jquery.animateNumber.min.js"></script>
+			<script src="js/bootstrap-datepicker.js"></script>
+			<script src="js/scrollax.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+			<script src="js/google-map.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/custom.js"></script>
+			
+		</body>
+		</html>
