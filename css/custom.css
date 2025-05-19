@@ -372,6 +372,9 @@ nav a, i{
   
   /*Mobile Query*/
   @media only screen and (max-width: 480px) {
+    .two{
+      margin-top: -29px;
+    }
     .prod{
    color: black;
     font-size: 8vw;
@@ -386,7 +389,7 @@ nav a, i{
         width: 100%;
     }
     .sec-d{
-        margin-top: 302%;
+        margin-top: 312%;
     }
 
     .propic{
