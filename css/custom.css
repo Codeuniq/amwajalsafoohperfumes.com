@@ -373,7 +373,7 @@ nav a, i{
   /*Mobile Query*/
   @media only screen and (max-width: 480px) {
     .two{
-      margin-top: -29px;
+      margin-top: -92px;
     }
     .prod{
    color: black;
